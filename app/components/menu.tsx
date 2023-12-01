@@ -196,12 +196,12 @@ export default function Menu() {
                     <div className="px-2 py-3">
                         <FaCookieBite />
                     </div>
-                    <h3 className="py-2 lg:pr-2 flex">
+                    <h3 className="py-2 pr-2 flex">
                         <div>
-                        TAPAS &nbsp;
+                        TAPAS
                         </div>
                         <div className="lg:block hidden">
-                         - Small Bite
+                        &nbsp;- Small Bite
                         </div>
                     </h3>
                 </button>
@@ -209,12 +209,12 @@ export default function Menu() {
                     <div className="px-2 py-3">
                         <PiBowlFood />
                     </div>
-                    <h3 className="py-2 lg:pr-2 flex">
+                    <h3 className="py-2 pr-2 flex">
                         <div>
-                            Main &nbsp;
+                            MAIN
                         </div>
                         <div className="lg:block hidden">
-                            Dishes
+                            &nbsp;DISHES
                         </div>
                          
                     </h3>
@@ -223,12 +223,12 @@ export default function Menu() {
                     <div className="px-2 py-3">
                         <LuSoup />
                     </div>
-                    <h3 className="py-2 lg:pr-2 flex">
+                    <h3 className="py-2 pr-2 flex">
                         <div>
-                            TANG &nbsp;
+                            TANG
                         </div>
                         <div className="lg:block hidden">
-                            - Soup
+                        &nbsp;- Soup
                         </div>
                     </h3>
                 </button>

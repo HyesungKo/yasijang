@@ -12,7 +12,7 @@ export default function Home() {
         <Sidebar />
         <div className="flex flex-col flex-1 h-screen overflow-auto">
           <div className="relative">
-            <div className="relative h-screen">
+            <div id="about" className="relative h-screen">
               <Image
                 priority
                 src="/main.jpg"
