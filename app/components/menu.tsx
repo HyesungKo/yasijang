@@ -238,10 +238,10 @@ export default function Menu() {
                     menuList[menu].map((item, index) => 
                         <div key={index+1000} className="my-2">
                             <div className="flex">
-                                <h4 className="lg:text-xl text-lg font-bold pr-5 uppercase">
+                                <h4 className="lg:text-xl text-lg font-bold uppercase">
                                     {item.name}
                                 </h4>
-                                <div className="flex flex-auto flex-col">
+                                <div className="flex flex-auto flex-col px-1">
                                     <div className="flex-1 border-b border-black"></div>
                                     <div className="flex-1"></div>
                                 </div>
@@ -250,13 +250,16 @@ export default function Menu() {
                                     <div className="text-lg flex">
                                         {typeof item.price != 'number'?
                                             item.price.map((price, index) =>
-                                                <div key={index+10} className={index !== 0? "ml-1":"ml-0"}>
-                                                    {typeof price == 'number'?
-                                                        `$${price}`
+                                                typeof price == 'number'?
+                                                    <div key={index+10} className={index !== 0? "ml-1":"ml-0"}>
+                                                        ${price}
+                                                    </div>
                                                     :
-                                                        `${price}`
-                                                    }
-                                                </div>
+                                                    <div key={index+10} className={index !== 0? "ml-1":"ml-0"} style={{fontWeight: "500"}}>
+                                                        {price}
+
+                                                    </div>
+                                                
                                             )   
                                         :
                                             `$${item.price}`
@@ -266,12 +269,14 @@ export default function Menu() {
                             </div>
                             {typeof item.desc != 'string'?
                             item.desc.map((desc, index) =>
-                                <p key={index+100} className="text-gray-700 -mt-1 font-medium">
+                                <p key={index+100} className="text-gray-700 font-medium">
                                     {desc}
                                 </p>
                             )
                             :
-                            item.desc
+                                <p key={index+100} className="text-gray-600 -mt-1 font-medium">
+                                    {item.desc}
+                                </p>
                             }
                         </div>
                     )
