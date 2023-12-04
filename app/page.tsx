@@ -3,6 +3,7 @@ import Menu from './components/menu';
 import About from './components/about';
 import Contact from './components/contact';
 import Sidebar from './components/sidebar';
+import { LiaCopyright } from "react-icons/lia";
 
 
 export default function Home() {
@@ -26,6 +27,14 @@ export default function Home() {
           </div>
           <Menu />
           <Contact />
+          <div className="h-8 md:bg-white bg-slate-300">
+            <p className="p-1 font-sans flex justify-center">
+              <div className="py-1">
+                <LiaCopyright />
+              </div>  
+              {new Date().getFullYear()} YA-SI-JANG
+            </p>
+          </div>
         </div>
       </div>
     </>
