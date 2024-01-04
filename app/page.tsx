@@ -27,11 +27,11 @@ export default function Home() {
           </div>
           <Menu />
           <Contact />
-          <div className="h-8 md:bg-white bg-slate-300">
-            <p className="p-1 font-sans flex justify-center">
-              <div className="py-1">
-                <LiaCopyright />
-              </div>  
+          <div className="p-1 h-10 md:bg-white bg-slate-300 flex justify-center">
+            <div className="p-1">
+              <LiaCopyright />
+            </div>
+            <p className="font-sans flex justify-center">
               {new Date().getFullYear()} YA-SI-JANG
             </p>
           </div>

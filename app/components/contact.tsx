@@ -2,16 +2,24 @@ export default function Contact() {
     return (
         <>
             <div id="contact" className="container mx-auto py-18">
-                <h2 className="w-full text-center text-3xl font-black pb-5">Contact Us</h2>
-                <p className="w-100 xl:mx-60 mx-5 mb-10 text-center">
-                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue
-                </p>
-                <h3 className="text-xl my-1 text-center">
-                    CALL: <a href="tel:415-775-5800">415-775-5800</a>
-                </h3>
-                <h3 className="text-xl my-1 text-center">
-                    EMAIL: <a href="mailto:">abcdef@gmail.com</a>
-                </h3>
+                <h2 className="w-full text-center text-3xl font-black mb-5">Contact Us</h2>
+                <div className="flex flex-row justify-center w-100 xl:mx-48">
+                    <div className=" m-5 w-72 text-center">
+                        <p className="mb-10">
+                            On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment
+                        </p>
+                        <h3 className="text-xl my-1">
+                            Phone: <a href="tel:415-775-5800">415-775-5800</a>
+                        </h3>
+                        <h3 className="text-xl my-1">
+                            EMAIL: <a href="mailto:">abcdef@gmail.com</a>
+                        </h3>
+
+                    </div>
+                    {/* <div className="flex-1">
+                        dfasd
+                    </div> */}
+                </div>
             </div>
             <div className="container mx-auto pt-16">
                 <h2 className="w-full text-center text-3xl font-black pb-5">Location</h2>
