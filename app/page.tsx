@@ -4,6 +4,7 @@ import About from './components/about';
 import Contact from './components/contact';
 import Sidebar from './components/sidebar';
 import { LiaCopyright } from "react-icons/lia";
+import Gallery from './components/gallery';
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
             </div>
           </div>
           <Menu />
+          <Gallery /> 
           <Contact />
           <div className="p-1 h-10 md:bg-white bg-slate-300 flex justify-center">
             <div className="p-1">

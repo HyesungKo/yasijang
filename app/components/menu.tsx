@@ -186,13 +186,17 @@ export default function Menu() {
         setMenu(cur);
     } 
     return (
-        <div id="menu" className="container mx-auto py-16">
-            <h2 className="w-full text-center text-3xl font-black mb-5">Menu</h2>
+        <div id="menu" className="container mx-auto">
+            <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold">Menu</h2>
             <p className="w-100 xl:mx-60 mx-5 text-center">
               On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue
             </p>
             <div className="my-12 mx-auto flex justify-center">
-                <button className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12" style={menu == 0? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}} onClick={() => handleMenu(0)}>
+                <button
+                    className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12"
+                    style={menu == 0? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}}
+                    onClick={() => handleMenu(0)}
+                >
                     <div className="px-2 py-3">
                         <FaCookieBite />
                     </div>
@@ -205,7 +209,11 @@ export default function Menu() {
                         </div>
                     </h3>
                 </button>
-                <button className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12" style={menu == 1? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}} onClick={() => handleMenu(1)}>
+                <button
+                    className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12"
+                    style={menu == 1? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}}
+                    onClick={() => handleMenu(1)}
+                >
                     <div className="px-2 py-3">
                         <PiBowlFood />
                     </div>
@@ -219,7 +227,11 @@ export default function Menu() {
                          
                     </h3>
                 </button>
-                <button className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12" style={menu == 2? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}} onClick={() => handleMenu(2)}>
+                <button
+                    className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12"
+                    style={menu == 2? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}}
+                    onClick={() => handleMenu(2)}
+                >
                     <div className="px-2 py-3">
                         <LuSoup />
                     </div>
