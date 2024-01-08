@@ -59,8 +59,8 @@ export default function Gallery() {
                         key={category.id}
                         onClick={() => handleCategoryClick(category.name)}
 
-                        className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12"
-                        style={selectedCategory === category.name ? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}}
+                        className="text-xl flex font-medium border-solid border-2 border-yellow-200 rounded mx-1 h-12"
+                        style={selectedCategory === category.name ? {backgroundColor: 'rgb(254 240 138 / var(--tw-border-opacity))'}: {}}
                     >
                         <h3 className="p-2 flex">
                             {category.name}
