@@ -12,7 +12,7 @@ export default function About() {
             </div>
 
             <p className="w-100 xl:mx-60 px-5 text-center text-lg font-semibold pb-3">
-                Yasijang is the best place to enjoy delicious Korean night food in San Francisco! Whether you are looking for a casual dinner with friends, a romantic date night, or a fun party with your family, we have something for everyone. Our menu features a variety of dishes that are perfect for night cravings. Don&apos;t forget to pair your meal with some refreshing drinks, such as soju, beer, or tea. Come and experience the authentic flavors of Korea at Yasijang, where every night is a celebration!
+                Yasijang is the best place to enjoy delicious Korean night food in San Francisco! Whether you are looking for a casual dinner with friends, a romantic date night, or a fun party with your family, we have something for everyone. Our menu features a variety of dishes that are perfect for night cravings. Don&apos;t forget to pair your meal with some refreshing drinks, such as soju and beer. Come and experience the authentic flavors of Korea at Yasijang, where every night is a celebration!
             </p>
 
             <div className="flex justify-center text-3xl pb-3 text-yellow-300">

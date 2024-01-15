@@ -16,8 +16,15 @@ export default function Sidebar() {
                     800 Van Ness Ave<br />San Francisco, CA 94109
                     </Link>
                 </div>
-                <Link href="#about" className="hover:bg-gray-100 text-center my-6 font-semibold text-lg">ABOUT US</Link>
-                <Link href="#menu" className="hover:bg-gray-100 text-center mb-6 font-semibold text-lg">MENU</Link>
+                <Link href="#about" className="hover:bg-gray-100 text-center my-6 font-semibold text-lg">
+                    ABOUT US
+                </Link>
+                <Link href="#menu" className="hover:bg-gray-100 text-center mb-6 font-semibold text-lg">
+                    MENU
+                </Link>
+                <Link href="#gallery" className="hover:bg-gray-100 text-center mb-6 font-semibold text-lg">
+                    GALLERY
+                </Link>
                 <a href="#contact" className="hover:bg-gray-100 text-center mb-6 font-semibold text-lg">
                     CONTACT US
                 </a>

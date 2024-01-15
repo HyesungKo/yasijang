@@ -173,7 +173,7 @@ export default function Menu() {
                 desc: "Hot pot with assorted fish cakes in a clear broth"
             },
             {
-                name: "Tteok bokki Jeongo",
+                name: "Tteok bokki Jeongol",
                 price: 26,
                 desc: "Thin rice cakes simmered with fish cakes, green onions, eggs, Gochujang and broth"
             },

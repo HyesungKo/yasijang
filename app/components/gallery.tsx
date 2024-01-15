@@ -14,22 +14,25 @@ const categories = [
   ];
   
   const images = [
-    { id: 1, src: "sample.jpg", category: "TAPAS" },
-    { id: 2, src: "sample.jpg", category: "TAPAS" },
-    { id: 3, src: "sample.jpg", category: "TAPAS" },
-    { id: 4, src: "sample.jpg", category: "MAIN" },
-    { id: 5, src: "sample.jpg", category: "MAIN" },
-    { id: 6, src: "sample.jpg", category: "TANG" },
-    { id: 7, src: "sample.jpg", category: "TANG" },
-    { id: 8, src: "sample.jpg", category: "TANG" },
-    { id: 9, src: "sample.jpg", category: "TAPAS" },
-    { id: 10, src: "sample.jpg", category: "TAPAS" },
-    { id: 11, src: "sample.jpg", category: "TAPAS" },
-    { id: 12, src: "sample.jpg", category: "MAIN" },
-    { id: 13, src: "sample.jpg", category: "MAIN" },
-    { id: 14, src: "sample.jpg", category: "TANG" },
-    { id: 15, src: "sample.jpg", category: "TANG" },
-    { id: 16, src: "sample.jpg", category: "TANG" },
+    { id: 1, src: "img/tapa1.jpg", category: "TAPAS", name: "GRILLED ONIGIRI" },
+    { id: 2, src: "img/tapa2.jpg", category: "TAPAS", name: "SPICY TUNA TOWER" },
+    { id: 3, src: "img/tapa3.jpg", category: "TAPAS", name: "SHRIMP CREAMY CROQUET" },
+    { id: 4, src: "img/tapa4.jpg", category: "TAPAS", name: "AL BOB" },
+    { id: 5, src: "img/tapa5.jpg", category: "TAPAS", name: "GARLIC EDAMAME" },
+    { id: 6, src: "img/tapa6.jpg", category: "TAPAS", name: "CORN CHEESE" },
+    { id: 7, src: "img/tapa7.jpg", category: "TAPAS", name: "TAKO WASABI" },
+    { id: 8, src: "img/tapa8.jpg", category: "TAPAS", name: "KIMCHI JJIGAE - MUG" },
+    { id: 9, src: "img/tapa9.jpg", category: "TAPAS", name: "SPICY TOFU" },
+    { id: 10, src: "img/main1.jpg", category: "MAIN", name: "SUYUK" },
+    { id: 11, src: "img/main2.jpg", category: "MAIN", name: "RAINBOW NIGIRI - 4PCS" },
+    { id: 12, src: "img/main3.jpg", category: "MAIN", name: "SASHIMI - 6PCS" },
+    // { id: 13, src: "img/main4.jpg", category: "MAIN", name: "" },
+    { id: 14, src: "img/main5.jpg", category: "MAIN", name: "KIMCHI FRIED RICE" },
+    { id: 15, src: "img/main6.jpg", category: "MAIN", name: "STAIRWAY TO HEAVEN" },
+    { id: 16, src: "img/tang1.jpg", category: "TANG", name: "BOODAE JJIGAE" },
+    { id: 17, src: "img/tang2.jpg", category: "TANG", name: "ODEN TANG" },
+    { id: 18, src: "img/tang3.jpg", category: "TANG", name: "TTEOK BOKKI JEONGOL" },
+    { id: 19, src: "img/tang4.jpg", category: "TANG", name: "KIMCHI JJIGAE - POT" },
   ];
 
 export default function Gallery() {
@@ -78,8 +81,8 @@ export default function Gallery() {
                         className="w-full h-64 object-cover rounded-md"
                         />
                         <div className="absolute bottom-0 left-0 right-0 bg-gray-800 bg-opacity-50 p-2 rounded-b-md">
-                        <p className="text-lg font-semibold text-white text-center">
-                            {image.category}
+                        <p className="text-sm font-semibold text-white text-center">
+                            {image.name}
                         </p>
                         </div>
                     </div>
