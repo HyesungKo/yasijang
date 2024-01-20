@@ -173,7 +173,7 @@ export default function Menu() {
                 desc: "Hot pot with assorted fish cakes in a clear broth"
             },
             {
-                name: "Tteok bokki Jeongo",
+                name: "Tteok bokki Jeongol",
                 price: 26,
                 desc: "Thin rice cakes simmered with fish cakes, green onions, eggs, Gochujang and broth"
             },
@@ -193,8 +193,8 @@ export default function Menu() {
             </p>
             <div className="my-12 mx-auto flex justify-center">
                 <button
-                    className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12"
-                    style={menu == 0? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}}
+                    className="text-xl flex font-medium border-solid border-2 border-yellow-200 rounded mx-1 h-12"
+                    style={menu == 0? {backgroundColor: 'rgb(254 240 138 / var(--tw-border-opacity))'}: {}}
                     onClick={() => handleMenu(0)}
                 >
                     <div className="px-2 py-3">
@@ -210,8 +210,8 @@ export default function Menu() {
                     </h3>
                 </button>
                 <button
-                    className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12"
-                    style={menu == 1? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}}
+                    className="text-xl flex font-medium border-solid border-2 border-yellow-200 rounded mx-1 h-12"
+                    style={menu == 1? {backgroundColor: 'rgb(254 240 138 / var(--tw-border-opacity))'}: {}}
                     onClick={() => handleMenu(1)}
                 >
                     <div className="px-2 py-3">
@@ -228,8 +228,8 @@ export default function Menu() {
                     </h3>
                 </button>
                 <button
-                    className="text-xl flex font-medium border-solid border-2 border-orange-700 rounded mx-1 h-12"
-                    style={menu == 2? {backgroundColor: 'rgb(194 85 80 / var(--tw-border-opacity))'}: {}}
+                    className="text-xl flex font-medium border-solid border-2 border-yellow-200 rounded mx-1 h-12"
+                    style={menu == 2? {backgroundColor: 'rgb(254 240 138 / var(--tw-border-opacity))'}: {}}
                     onClick={() => handleMenu(2)}
                 >
                     <div className="px-2 py-3">

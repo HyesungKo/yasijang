@@ -78,7 +78,7 @@ export default function Contact() {
                                         <div className="text-center mx-3">
                                             <button
                                             type="submit"
-                                            className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 hover:bg-indigo-300 hover:text-neutral-800 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+                                            className="uppercase text-sm font-bold tracking-wide bg-yellow-300 text-balck hover:bg-yellow-100 hover:text-neutral-800 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
                                             >
                                             Send
                                             </button>

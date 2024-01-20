@@ -20,7 +20,7 @@ export default function Home() {
                 src="/main.jpg"
                 fill
                 alt="Main Cover"
-                className="blur-sm -z-10 brightness-50 p-3"
+                className="blur-sm -z-10 brightness-50 p-2"
                 style={{objectFit: "cover"}}
               />
               <About />
@@ -29,12 +29,12 @@ export default function Home() {
           <Menu />
           <Gallery /> 
           <Contact />
-          <div className="p-1 h-10 md:bg-white bg-slate-300 flex justify-center">
+          <div className="p-1 h-10 md:bg-white bg-yellow-2  00 flex justify-center">
             <div className="p-1">
               <LiaCopyright />
             </div>
             <p className="font-sans flex justify-center">
-              {new Date().getFullYear()} YA-SI-JANG
+              {new Date().getFullYear()} YASIJANG
             </p>
           </div>
         </div>
