@@ -1,10 +1,8 @@
 "use client"
 
 import React, { useState } from "react";
-import { PiBowlFood } from "react-icons/pi";
-import { LuSoup } from "react-icons/lu";
-import { FaCookieBite } from "react-icons/fa";
-
+import { motion } from "framer-motion"
+import { Miltonian } from "next/font/google";
 
 const categories = [
     { id: 1, name: "All" },
@@ -49,11 +47,12 @@ export default function Gallery() {
 
     return (
         <>
+            
             <div id="gallery" className="container mx-auto">
                 <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold">Gallery</h2>
             </div>
             <p className="w-100 xl:mx-60 mx-5 text-center">
-              On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue
+            On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue
             </p>
             <div className="container mx-auto px-4 py-4">
                 <div className="mt-3 mb-8 mx-auto flex justify-center">
