@@ -4,7 +4,7 @@ import { PiPhoneCallBold } from "react-icons/pi";
 
 export default function Sidebar() {
     return (
-        <div style={{backgroundColor: '#c8c4b8', color: '#10233E'}} className="flex w-full flex-col justify-center sm:w-72 sm:mx-auto mx-0 px-5 h-screen">
+        <div style={{backgroundColor: '#c8c4b8', color: '#10233E'}} className="flex w-full flex-col justify-center sm:w-72 sm:mx-auto mx-0 px-1 h-screen">
             <div>
 
             </div>
@@ -43,33 +43,34 @@ export default function Sidebar() {
                     </a>
                 </div>
                 <div>
-                    <table className="mt-10 mx-auto text-center">
+                    <table className="mx-auto mt-10 text-center">
                         <thead>
                             <tr>
-                            <th className="pr-2">Days</th>
-                            <th className="pl-2">Hours</th>
+                                <th className="pr-2">Days</th>
+                                <th className="pl-2">Lunch</th>
+                                <th className="pl-2">Dinner</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="pr-2">MON - THU</td>
-                                <td className="pl-2">11AM - 11PM</td>
+                                <td className="pr-2">MON-THU</td>
+                                <td className="pl-2">11AM-2:30PM</td>
+                                <td className="pl-2">5PM-11:00PM</td>
                             </tr>
                             <tr>
                                 <td className="pr-2">FRI</td>
-                                <td className="pl-2">11AM - 1AM</td>
-                            </tr>
-                            <tr>
-                                <td className="pr-2">LUNCH BREAK</td>
-                                <td className="pl-2">2:30PM - 5PM</td>
+                                <td className="pl-2">11AM-2:30PM</td>
+                                <td className="pl-2">5PM-1:00AM</td>
                             </tr>
                             <tr>
                                 <td className="pr-2">SAT</td>
-                                <td className="pl-2">5PM - 1AM</td>
+                                <td className="pl-2">Closed</td>
+                                <td className="pl-2">5PM-1:00AM</td>
                             </tr>
                             <tr>
                                 <td className="pr-2">SUN</td>
                                 <td className="pl-2">Closed</td>
+                                <td className="pl-2">Closed</td>    
                             </tr>
                         </tbody>
                     </table>

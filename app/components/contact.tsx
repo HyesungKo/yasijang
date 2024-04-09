@@ -13,7 +13,7 @@ export default function Contact() {
                                 <div className="mx-auto rounded-xl max-w-3xl">
                                     <div className="flex flex-col label">
                                         <div className="flex flex-col md:flex-row">
-                                            <label htmlFor="name" className="block border-b py-1 m-3">
+                                            <label htmlFor="name" className="block border-b py-1 m-3" style={{color: "#10233e"}}>
                                                 <input
                                                     id="name"
                                                     type="text"
@@ -22,7 +22,6 @@ export default function Contact() {
                                                     placeholder="Name*"
                                                     className="
                                                     appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 leading-tight focus:outline-none bg-cool-darker uppercase font-bold text-xl"
-                                                    style={{color: "#10233e"}}
                                                 />
                                             </label>
 
