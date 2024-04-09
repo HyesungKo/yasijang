@@ -4,19 +4,19 @@ import { PiPhoneCallBold } from "react-icons/pi";
 
 export default function Sidebar() {
     return (
-        <div style={{backgroundColor: "#10233e"}} className="flex w-full flex-col justify-center sm:w-72 sm:mx-auto mx-0 px-5 h-screen">
+        <div style={{backgroundColor: '#c8c4b8', color: '#10233e'}} className="flex w-full flex-col justify-center sm:w-72 sm:mx-auto mx-0 px-5 h-screen">
             <div>
 
             </div>
-            <div className="flex w-full flex-col text-white">
+            <div className="flex w-full flex-col">
                 <h1 className="text-center text-3xl">YASIJANG</h1>
                 <h1 className="text-center text-3xl pt-2 pb-4">야시장</h1>
-                <div className="border-y-2 my-6 py-6 border-white text-center font-bold">
+                <div className="border-y-2 my-6 py-6 text-center font-bold" style={{borderColor : '#10233e'}}>
                     <Link href="https://maps.app.goo.gl/iKTjvge2GLj52kqo6" className="w-full">
                     800 Van Ness Ave<br />San Francisco, CA 94109
                     </Link>
                 </div>
-                <Link href="#about" className="text-center my-6 font-semibold text-lg hover:text-xl transition duration-300">
+                <Link href="#about" className="text-center my-6 font-semibold text-lg hover:text-xl">
                     ABOUT US
                 </Link>
                 <Link href="#menu" className="text-center mb-6 font-semibold text-lg">

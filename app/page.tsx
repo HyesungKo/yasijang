@@ -10,7 +10,7 @@ import Gallery from './components/gallery';
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row w-full font-serif">
+      <div className="flex flex-col sm:flex-row w-full font-serif" >
         <Sidebar />
         <div className="flex flex-col flex-1 h-screen overflow-auto">
           <div className="relative">
@@ -20,16 +20,18 @@ export default function Home() {
                 src="/main.jpg"
                 fill
                 alt="Main Cover"
-                className="blur-sm -z-10 brightness-50 p-2"
+                className="blur-sm -z-10 brightness-50"
                 style={{objectFit: "cover"}}
               />
               <About />
             </div>
           </div>
-          <Menu />
-          <Gallery /> 
-          <Contact />
-          <div className="p-1 h-10 md:bg-white bg-yellow-2  00 flex justify-center">
+          <div style={{backgroundColor: "#c8c4b8"}}>
+            <Menu />
+            <Gallery /> 
+            <Contact />
+          </div>
+          <div className="p-1 h-10 md:bg-white flex justify-center">
             <div className="p-1">
               <LiaCopyright />
             </div>

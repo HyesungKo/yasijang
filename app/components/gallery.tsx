@@ -46,7 +46,6 @@ export default function Gallery() {
 
     return (
         <>
-            
             <div id="gallery" className="container mx-auto">
                 <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold">Gallery</h2>
             </div>

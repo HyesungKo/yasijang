@@ -4,7 +4,7 @@ export default function Contact() {
             <div id="contact" className="container mx-auto py-18">
                 <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold">Contact Us</h2>
                 <p className="w-100 xl:mx-60 mx-5 text-center">
-                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue
+                    {/* On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue */}
                 </p>
                 <div className="flex flex-row justify-center w-100">
                     <div id="form-container" className="lg:p-5 font-Encode-Sans">

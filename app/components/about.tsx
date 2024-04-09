@@ -3,18 +3,6 @@ import { GoMoon } from "react-icons/go";
 export default function About() {
     return (
         <div className="relative container mx-auto lg:top-80 top-48 text-white">
-            {/* <motion.div
-                    className="box"
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{
-                      duration: 0.8,
-                      delay: 1,
-                      ease: [0, 0.71, 0.2, 1.01]
-                    }}
-            >
-                
-            </motion.div> */}
                 <h2 className="w-full text-center px-5 text-4xl font-black pb-3">
                     Welcome to Yasijang!
                 </h2>
