@@ -2,7 +2,7 @@ export default function Contact() {
     return (
         <>
             <div id="contact" className="container mx-auto py-18">
-                <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold">Contact Us</h2>
+                <h2 className="text-center lg:text-5xl text-5xl mt-10 font-bold">Contact Us</h2>
                 <p className="w-100 xl:mx-60 mx-5 text-center">
                     {/* On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue */}
                 </p>
@@ -79,7 +79,7 @@ export default function Contact() {
                                             <button
                                                 type="submit"
                                                 style={{backgroundColor: '#10233e', color: 'white'}}
-                                                className="uppercase text-sm font-bold tracking-wide p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+                                                className="uppercase text-sm font-bold tracking-wide p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:opacity-80"
                                             >
                                             Send
                                             </button>

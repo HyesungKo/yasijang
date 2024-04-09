@@ -19,13 +19,13 @@ export default function Sidebar() {
                 <Link href="#about" className="text-center my-6 font-semibold text-lg hover:text-xl">
                     ABOUT US
                 </Link>
-                <Link href="#menu" className="text-center mb-6 font-semibold text-lg">
+                <Link href="#menu" className="text-center mb-6 font-semibold text-lg hover:text-xl">
                     MENU
                 </Link>
-                <Link href="#gallery" className="text-center mb-6 font-semibold text-lg">
+                <Link href="#gallery" className="text-center mb-6 font-semibold text-lg hover:text-xl">
                     GALLERY
                 </Link>
-                <a href="#contact" className="text-center mb-6 font-semibold text-lg">
+                <a href="#contact" className="text-center mb-6 font-semibold text-lg hover:text-xl">
                     CONTACT US
                 </a>
                 {/* <a className="hover:bg-gray-100 text-center mb-10 font-semibold text-lg">

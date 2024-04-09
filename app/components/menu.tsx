@@ -218,7 +218,7 @@ export default function Menu() {
             <p className="w-100 xl:mx-60 mx-5 text-center">
               {/* On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue */}
             </p>
-            <div className="my-12 mx-auto flex justify-center">
+            <div className="mb-8 mx-auto flex justify-center">
                 <button
                     className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
                     style={menu == 0? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
