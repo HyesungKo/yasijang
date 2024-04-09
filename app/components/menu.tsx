@@ -221,7 +221,7 @@ export default function Menu() {
             <div className="my-12 mx-auto flex justify-center">
                 <button
                     className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
-                    style={menu == 0? {backgroundColor: '#10233e', color: 'white'}: {}}
+                    style={menu == 0? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
                     onClick={() => handleMenu(0)}
                 >
                     <div className="px-2 py-3">
@@ -238,7 +238,7 @@ export default function Menu() {
                 </button>
                 <button
                     className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
-                    style={menu == 1? {backgroundColor: '#10233e', color: 'white'}: {}}
+                    style={menu == 1? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
                     onClick={() => handleMenu(1)}
                 >
                     <div className="px-2 py-3">
@@ -256,7 +256,7 @@ export default function Menu() {
                 </button>
                 <button
                     className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
-                    style={menu == 2? {backgroundColor: '#10233e', color: 'white'}: {}}
+                    style={menu == 2? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
                     onClick={() => handleMenu(2)}
                 >
                     <div className="px-2 py-3">
