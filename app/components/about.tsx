@@ -1,5 +1,4 @@
 import { GoMoon } from "react-icons/go";
-import { motion } from "framer-motion"
 
 export default function About() {
     return (
