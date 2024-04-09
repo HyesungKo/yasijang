@@ -45,29 +45,29 @@ export default function Sidebar() {
                 <div>
                     <table className="mx-auto mt-10 text-center">
                         <thead>
-                            <tr>
+                            <tr style={{borderBottom: "1px gray dotted"}}>
                                 <th className="pr-2">Days</th>
                                 <th className="pl-2">Lunch</th>
                                 <th className="pl-2">Dinner</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">MON-THU</td>
                                 <td className="pl-2">11AM-2:30PM</td>
                                 <td className="pl-2">5PM-11:00PM</td>
                             </tr>
-                            <tr>
+                            <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">FRI</td>
                                 <td className="pl-2">11AM-2:30PM</td>
                                 <td className="pl-2">5PM-1:00AM</td>
                             </tr>
-                            <tr>
+                            <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">SAT</td>
                                 <td className="pl-2">Closed</td>
                                 <td className="pl-2">5PM-1:00AM</td>
                             </tr>
-                            <tr>
+                            <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">SUN</td>
                                 <td className="pl-2">Closed</td>
                                 <td className="pl-2">Closed</td>    
