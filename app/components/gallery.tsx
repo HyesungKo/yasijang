@@ -47,7 +47,7 @@ export default function Gallery() {
     return (
         <>
             <div id="gallery" className="container mx-auto">
-                <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold">Gallery</h2>
+                <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold" style={{color: "#10233e"}}>Gallery</h2>
             </div>
             <p className="w-100 xl:mx-60 mx-5 text-center">
             {/* On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue */}
