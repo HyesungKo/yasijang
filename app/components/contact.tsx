@@ -56,7 +56,6 @@ export default function Contact() {
                                                     name="company"
                                                     type="text"
                                                     placeholder="Company"
-                                                    required
                                                     className="
                                                     appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none font-bold uppercase text-xl"
                                                 />
