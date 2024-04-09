@@ -31,7 +31,7 @@ export default function Home() {
             <Gallery /> 
             <Contact />
           </div>
-          <div className="p-1 h-10 md:bg-white flex justify-center">
+          <div className="p-1 h-10 flex justify-center" style={{backgroundColor: "#c8c4b8"}}>
             <div className="p-1">
               <LiaCopyright />
             </div>
