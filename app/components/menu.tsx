@@ -14,129 +14,116 @@ export default function Menu() {
                 desc: "Stir-fried kimchi, daikon radish, cucumber, pickles, tobiko, and quail eggs over rice in a stone pot"
             },
             {
+                name: "Bulgogi Nacho",
+                price: 11,
+                desc: "A plate of tortilla chips, fresh pico de gallo, nacho cheese sauce and bulgogi"
+            },
+            {
                 name: "Bulgogi Taco",
-                price: 8,
+                price: 9,
                 desc: "Taco made with bulgogi (2pcs)"
             },
             {
-                name: "Cheesy Mandu",
-                price: 8,
-                desc: "Cheese topping for pan-seared beef dumplings (5pcs)"
-            },
-            {
-                name: "Corn Dog",
-                price: 6,
-                desc: "Sausage buns with buttery bread and cheese"
+                name: "Bossam",
+                price: 14,
+                desc: "Boiled pork belly served with radish kimchi and ssamjang (5pcs)"
             },
             {
                 name: "Corn Cheese",
-                price: 9,
+                price: 10,
                 desc: "Creamy sweet corn with cheese on Hot plate"
             },
             {
-                name: "Dak Chicken Slider",
-                price: 8,
-                desc: "Chicken sandwich on a small brioche bun with savory Dak Chicken sauce (2pcs)"
-            },
-            {
-                name: "Grilled Onigiri",
+                name: "Creamy Croquet",
                 price: 7,
-                desc: "Grilled rice balls with Chamchi – Albacore - mayo salad inside"
+                desc: "Creamy potatoes, breaded and fried (2pcs)"
             },
             {
                 name: "Garlic Edamame",
-                price: 7,
+                price: 8,
                 desc: "Pan Sauted garlic and Edamame"
             },
             {
                 name: "Garlic fry",
-                price: 7,
+                price: 9,
                 desc: "Roasted garlic on top of fried potatoes"
             },
             {
+                name: "Hwa Chae",
+                price: 13,
+                desc: "K-style of fruit punch made with watermelon, cruit cocktail and sweet soda"
+            },
+            {
                 name: "Mini Jeon",
-                price: 8,
+                price: 10,
                 desc: "Korean-style pancakes with assorted vegetables and squid and shrimp (2pcs)"
             },
             {
+                name: "Mini Kimchi Stew",
+                price: 11,
+                desc: "Pork in a kimchi based broth, a stewed dish served in mug"
+            },
+            {
                 name: "Rainbow Nigiri",
-                price: 13,
+                price: 14,
                 desc: "Tuna, Salmon, Hamachi and Daily fresh (4pcs)"
             },
             {
-                name: "Suyook(aka Bossam)",
-                price: 13,
-                desc: "Pork belly boiled for 2 hours and served with radish kimchi and ssamjang (5pcs)"
-            },
-            {
-                name: "Kimbap",
-                price: 8,
-                desc: [
-                    "Seasoned rice with various vegetables, and choice of meat",
-                    "+$2 Bulgogi   +$2 Albacore Salad"
-                ]
-            },
-            {
-                name: "Creamy Croquet",
-                price: 6,
-                desc: "Creamy potatoes, breaded and fried (2pcs)"
-            },
-            {
                 name: "Spicy Tuna Tower",
-                price: 10,
-                desc: "Spicy tuna piled high on an Kappa maki base"
+                price: 12,
+                desc: "Spicy tuna piled high on an Kappa(cucumber) maki base"
             },
             {
                 name: "Sashimi",
-                price: 16,
+                price: 17,
                 desc: "6 slices of fresh fish"
             },
             {
                 name: "Sotteok Sotteok",
                 price: 6,
-                desc: "Sausage and rice cakes skewered, deep-fried, and topped with hot sauce"
+                desc: "Sausage and rice cakes skewered, deep-fried, and topped with sauce(1pcs)"
+            },
+            {
+                name: "Spoonable Potato",
+                price: 11,
+                desc: "Cheesy hash brown casserole, mixed vegetables with chees on top"
             },
             {
                 name: "Spam Roulette",
-                price: 13,
-                desc: "One of the six spam MUSUBIs contained wasabi. Who would eat it? (6pcs)"
+                price: 10,
+                desc: "There is a wasabi trap in one of the six small mini musubis. Who will eat it?"
             },
             {
                 name: "Tako Wasabi",
                 price: 12,
-                desc: "Serve tacos wasabi and fried rice papers"
+                desc: "Wasabi seasoned octopus served with fried rice paper"
             },
+            {
+                name: "Truffle Bosot Fry",
+                price: 9,
+                desc: "Deep fried enoki mushrooms with truffle salt"
+            }
         ],
         [
             {
-                name: "Stairway to Heaven",
-                price: 0,
-                desc: [
-                    "YASIAJANG's signature sushi and sashimi served on a 12-step staircase-shaped plate",
-                    "$65 (For 1-2) 12pcs Nigiri, 8pcs Sashimi and Spicy Tuna Tower",
-                    "$89 (For 2-3)  16pcs Nigiri, 8pcs Sashimi, Futo Maki and Tako Wasabi",
-                    "$150 (For 3-4) 24pcs Nigiri, 12pcs Sashimi, Hwe Muchim"
-                ]
-            },
-            {
                 name: "Bibimbap",
-                price: 18,
+                price: 19,
                 desc: [
-                    "Rice topped with sauteed vegetables, fried egg",
-                    "+$4 Bulgogi"
+                    "Various vegetables over rice, fried egg, and gochujang",
+                    "+$4 Bulgogi  +$3 Tofu"
                 ]
             },
             {
                 name: "BulJokbal",
-                price: 19,
-                desc: "Bone-in pork feet stir-fried with Korean spicy seasoning over high heat."
+                price: 20,
+                desc: "Braised bone-in pork feet with house made spicy sauce"
             },
             {
-                name: "Dak Fried Chicken",
-                price: 18,
+                name: "Dooboo Jorim",
+                price: 19,
                 desc: [
-                    "Korean-style twice-fried crispy chicken (8pcs)",
-                    "+$2 Sweet & Spicy   +$2 Soy Garlic"
+                    "Braised tofu in a spicy & savory sauce",
+                    "+$4 Bulgogi  +$4 Spam"
                 ]
             },
             {
@@ -145,64 +132,90 @@ export default function Menu() {
                 desc: "Onion Rings, Garlic Fries, and 4 pcs of Fried Chicken"
             },
             {
-                name: "Hwe Moochim",
-                price: 22,
-                desc: "Thinly sliced sashimi tossed with Korean-style gochujang seasoning and vegetables"
+                name: "K-Fried Chicken",
+                price: 19,
+                desc: [
+                    "K-style twice-fried crispy chicken (8pcs)",
+                    "+$2 Sweet & Spicy   +$2 Soy Garlic"
+                ]
             },
             {
                 name: "Kimchi Fried Rice",
                 price: 14,
-                desc: "Kimchi and Spam fried rice, served with fried egg on top"
+                desc: "Primarily made with kimchi and rice, fried egg on top"
             },
             {
                 name: "Pork BangBang",
-                price: 18,
+                price: 19,
                 desc: "Stir-fry the pork with the bean sprouts"
+            },
+            {
+                name: "Jeyuk Bokkeum",
+                price: 18,
+                desc: "Thin sliced pork meat marinated in a spicy, sweet and savory gochujang"
             },
         ],
         [
             {
-                name: "KRAKEN",
-                price: 30,
-                desc: "Spicy broth with an assortment of seafood and whole squid"
+                name: "Boodaejjigae",
+                price: 31,
+                desc: [
+                    "Army Stew... spicy broth with ham, sausage, rice cakes, and tofu",
+                    "+$3 Cheese"
+                ] 
             },
             {
-                name: "Boodae Jjigae",
-                price: 30,
-                desc: "Army Stew... spicy broth with ham, sausage, rice cakes, and tofu"
-            },
-            {
-                name: "Hong Hop Tang",
+                name: "HongHop Tang",
                 price: 17,
-                desc: "Hot pot with mussels in a clear broth"
+                desc: "Boiled mussels in a clear broth"
             },
             {
-                name: "Kimchi jjigae",
-                price: ["Mug", 10, "Pot", 32],
-                desc: "Pork in a kimchi-based broth, a stewed dish made with a hangover"
+                name: "KRAKEN",
+                price: 32,
+                desc: "Spicy broth with an assortment of seafood, whole squid, and noodles"
             },
             {
-                name: "Nagasaki Chanpon",
-                price: 22,
-                desc: "Nagasaki style white broth Chanpon"
+                name: "Nagasaki Champon",
+                price: 25,
+                desc: "Nagasaki style spicy white broth with seafood and noodles"
             },
             {
                 name: "Odeng Tang",
-                price: ["Small", 20, "Large", 36],
-                desc: "Hot pot with assorted fish cakes in a clear broth"
+                price: 20,
+                desc: "Various types of odeng simmered in a light savory broth"
             },
             {
-                name: "Spicy Tofu Jeongol",
-                price: 18,
+                name: "Juksuk Tteok bokki",
+                price: 27,
                 desc: [
-                    "Nagasaki style white broth Chanpon",
-                    "+$5 Pork   +$5 Bulgogi   +$5 Seafood"
+                    "Thin rice cakes simmered with fish cakes, deep fried mandu, green onions, a boiled egg, Gochujang broth",
+                    "+$3 Cheese"
+                ], 
+            },
+        ],
+        [
+            {
+                name: "Stairway to Heaven",
+                price: 0,
+                desc: [
+                    "YASIAJANG's signature sushi & sashimi served on a 12-step staircase-shaped plate",
+                    "$69 (For 1-2) 12pcs Nigiri, 8pcs Sashimi and Spicy Tuna Tower",
+                    "$95 (For 2-3) 16pcs Nigiri, 8pcs Sashimi, Futo Maki and Tako Wasabi",
+                    "$160 (For 3-4) 24pcs Nigiri, 12pcs Sashimi, HWE MUCHIM"
                 ]
             },
             {
-                name: "Tteok bokki Jeongol",
-                price: 26,
-                desc: "Thin rice cakes simmered with fish cakes, green onions, eggs, Gochujang and broth"
+                name: "Kimbap",
+                price: 9,
+                desc: [
+                    "Seasoned rice with various vegetables, and choice of meat",
+                    "+$2 Bulgogi   +$2 Albacore Salad"
+                ]
+            },
+            {
+                name: "K-Poke",
+                price: 22,
+                desc: "Thinly sliced sashimi tossed with K-style gochujang seasoning and vegetables"
             },
         ]
     ]
@@ -215,9 +228,6 @@ export default function Menu() {
     return (
         <div id="menu" className="container mx-auto" style={{backgroundColor: "#c8c4b8"}}>
             <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold" style={{color: "#10233e"}}>Menu</h2>
-            <p className="w-100 xl:mx-60 mx-5 text-center">
-              {/* On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue */}
-            </p>
             <div className="mb-8 mx-auto flex justify-center">
                 <button
                     className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
@@ -271,6 +281,22 @@ export default function Menu() {
                         </div>
                     </h3>
                 </button>
+                <button
+                    className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
+                    style={menu == 3? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
+                    onClick={() => handleMenu(3)}
+                >
+                    <div className="pl-2 py-3">
+                    </div>
+                    <h3 className="py-2 pr-2 flex">
+                        <div>
+                            YASIJANG
+                        </div>
+                        <div className="lg:block hidden">
+                        &nbsp;SPECIAL
+                        </div>
+                    </h3>
+                </button>
             </div>
             <div className="xl:mx-52 mx-5 font-sans">
                 {
@@ -287,19 +313,7 @@ export default function Menu() {
                                 {
                                     item.price != 0 &&
                                     <div className="text-lg flex">
-                                        {typeof item.price != 'number'?
-                                            item.price.map((price, index) =>
-                                                typeof price == 'number'?
-                                                    <div key={index+10} className={index !== 0? "ml-1":"ml-0"}>
-                                                        ${price}
-                                                    </div>
-                                                    :
-                                                    <div key={index+10} className={index !== 0? "ml-1":"ml-0"} style={{fontWeight: "500"}}>
-                                                        {price}
-                                                    </div>
-                                                
-                                            )   
-                                        :
+                                        {
                                             `$${item.price}`
                                         }
                                     </div>

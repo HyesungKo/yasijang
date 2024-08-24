@@ -53,19 +53,24 @@ export default function Sidebar() {
                         </thead>
                         <tbody>
                             <tr style={{borderBottom: "1px gray dotted"}}>
-                                <td className="pr-2">MON-THU</td>
+                                <td className="pr-2">MON-TUE</td>
+                                <td className="pl-2">11AM-2:30PM</td>
+                                <td className="pl-2">5PM-10:00PM</td>
+                            </tr>
+                            <tr style={{borderBottom: "1px gray dotted"}}>
+                                <td className="pr-2">WED-THU</td>
                                 <td className="pl-2">11AM-2:30PM</td>
                                 <td className="pl-2">5PM-11:00PM</td>
                             </tr>
                             <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">FRI</td>
                                 <td className="pl-2">11AM-2:30PM</td>
-                                <td className="pl-2">5PM-1:00AM</td>
+                                <td className="pl-2">5PM-12:00AM</td>
                             </tr>
                             <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">SAT</td>
                                 <td className="pl-2">Closed</td>
-                                <td className="pl-2">5PM-1:00AM</td>
+                                <td className="pl-2">5PM-12:00AM</td>
                             </tr>
                             <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">SUN</td>
