@@ -22,6 +22,9 @@ export default function Sidebar() {
                 <Link href="#menu" className="text-center mb-6 font-semibold text-lg hover:text-xl">
                     MENU
                 </Link>
+                <Link href="#happyhour" className="text-center mb-6 font-semibold text-lg hover:text-xl">
+                    Happy Hour!
+                </Link>
                 <Link href="#gallery" className="text-center mb-6 font-semibold text-lg hover:text-xl">
                     GALLERY
                 </Link>
