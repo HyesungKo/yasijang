@@ -228,75 +228,79 @@ export default function Menu() {
     return (
         <div id="menu" className="container mx-auto" style={{backgroundColor: "#c8c4b8"}}>
             <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold" style={{color: "#10233e"}}>Menu</h2>
-            <div className="mb-8 mx-auto flex justify-center">
-                <button
-                    className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
-                    style={menu == 0? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
-                    onClick={() => handleMenu(0)}
-                >
-                    <div className="px-2 py-3">
-                        <FaCookieBite />
-                    </div>
-                    <h3 className="py-2 pr-2 flex">
-                        <div>
-                        TAPAS
+            <div className="mb-8 mx-auto flex flex-col sm:flex-row sm:justify-center">
+                <div className="mb-4 flex flex-row justify-center">
+                    <button
+                        className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
+                        style={menu == 0? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
+                        onClick={() => handleMenu(0)}
+                    >
+                        <div className="px-2 py-3">
+                            <FaCookieBite />
                         </div>
-                        <div className="lg:block hidden">
-                        &nbsp;- Small Bite
+                        <h3 className="py-2 pr-2 flex">
+                            <div>
+                            TAPAS
+                            </div>
+                            <div className="lg:block hidden">
+                            &nbsp;- Small Bite
+                            </div>
+                        </h3>
+                    </button>
+                    <button
+                        className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
+                        style={menu == 1? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
+                        onClick={() => handleMenu(1)}
+                    >
+                        <div className="px-2 py-3">
+                            <PiBowlFood />
                         </div>
-                    </h3>
-                </button>
-                <button
-                    className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
-                    style={menu == 1? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
-                    onClick={() => handleMenu(1)}
-                >
-                    <div className="px-2 py-3">
-                        <PiBowlFood />
-                    </div>
-                    <h3 className="py-2 pr-2 flex">
-                        <div>
-                            MAIN
+                        <h3 className="py-2 pr-2 flex">
+                            <div>
+                                MAIN
+                            </div>
+                            <div className="lg:block hidden">
+                                &nbsp;DISHES
+                            </div>
+                            
+                        </h3>
+                    </button>
+                </div>
+                <div className="flex flex-row justify-center">
+                    <button
+                        className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
+                        style={menu == 2? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
+                        onClick={() => handleMenu(2)}
+                    >
+                        <div className="px-2 py-3">
+                            <LuSoup />
                         </div>
-                        <div className="lg:block hidden">
-                            &nbsp;DISHES
+                        <h3 className="py-2 pr-2 flex">
+                            <div>
+                                TANG
+                            </div>
+                            <div className="lg:block hidden">
+                            &nbsp;- Soup
+                            </div>
+                        </h3>
+                    </button>
+                    <button
+                        className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
+                        style={menu == 3? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
+                        onClick={() => handleMenu(3)}
+                    >
+                        <div className="pl-2 py-3">
                         </div>
-                         
-                    </h3>
-                </button>
-                <button
-                    className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
-                    style={menu == 2? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
-                    onClick={() => handleMenu(2)}
-                >
-                    <div className="px-2 py-3">
-                        <LuSoup />
-                    </div>
-                    <h3 className="py-2 pr-2 flex">
-                        <div>
-                            TANG
-                        </div>
-                        <div className="lg:block hidden">
-                        &nbsp;- Soup
-                        </div>
-                    </h3>
-                </button>
-                <button
-                    className="text-xl flex font-medium border-solid border-2 rounded mx-1 h-12"
-                    style={menu == 3? {backgroundColor: '#10233e', color: 'white', borderColor: '#10233e'}: {borderColor: '#10233e'}}
-                    onClick={() => handleMenu(3)}
-                >
-                    <div className="pl-2 py-3">
-                    </div>
-                    <h3 className="py-2 pr-2 flex">
-                        <div>
-                            YASIJANG
-                        </div>
-                        <div className="lg:block hidden">
-                        &nbsp;SPECIAL
-                        </div>
-                    </h3>
-                </button>
+                        <h3 className="py-2 pr-2 flex">
+                            <div>
+                                YASIJANG
+                            </div>
+                            <div className="lg:block hidden">
+                            &nbsp;SPECIAL
+                            </div>
+                        </h3>
+                    </button>
+                </div>
             </div>
             <div className="xl:mx-52 mx-5 font-sans">
                 {
