@@ -6,6 +6,7 @@ import Sidebar from './components/sidebar';
 import { LiaCopyright } from "react-icons/lia";
 import Gallery from './components/gallery';
 import HappyHour from './components/happyhours';
+import MenuSushi from './components/menu_japanese';
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
           </div>
           <div style={{backgroundColor: "#c8c4b8"}}>
             <Menu />
+            <MenuSushi />
             <HappyHour />
             <Gallery /> 
             <Contact />

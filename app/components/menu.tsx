@@ -224,10 +224,11 @@ export default function Menu() {
 
     function handleMenu(cur: number) {
         setMenu(cur);
-    } 
+    }
+
     return (
         <div id="menu" className="container mx-auto" style={{backgroundColor: "#c8c4b8"}}>
-            <h2 className="text-center lg:text-5xl text-5xl mt-10 pb-6 font-bold" style={{color: "#10233e"}}>Menu</h2>
+            <h2 className="text-center lg:text-5xl text-5xl mt-32 pb-6 font-bold" style={{color: "#10233e"}}>Menu</h2>
             <div className="mb-8 mx-auto flex flex-col sm:flex-row sm:justify-center">
                 <div className="mb-4 flex flex-row justify-center">
                     <button
@@ -316,7 +317,7 @@ export default function Menu() {
                                 </div>
                                 {
                                     item.price != 0 &&
-                                    <div className="text-lg flex">
+                                    <div className="text-lg flex font-semibold">
                                         {
                                             `$${item.price}`
                                         }
@@ -338,6 +339,6 @@ export default function Menu() {
                     )
                 }
             </div>
-          </div>
+        </div>
     )
 }
