@@ -39,7 +39,7 @@ export default function HappyHour() {
 
             {
                 happyDrinks.map((item, index) => 
-                    <div key={index+100} className="my-2 xl:mx-52 mx-5 font-sans">
+                    <div key={index+100} className="my-2 xl:mx-80 mx-5 font-sans">
                         <div className="flex">
                             <h4 className="lg:text-xl text-lg font-bold uppercase">
                                 {item.name}
@@ -50,7 +50,7 @@ export default function HappyHour() {
                             </div>
                             {
                                 item.price != 0 &&
-                                <div className="text-lg flex">
+                                <div className="text-lg flex font-semibold">
                                     {
                                         `$${item.price}`
                                     }
