@@ -78,7 +78,7 @@ export default function Sidebar() {
                             <tr style={{borderBottom: "1px gray dotted"}}>
                                 <td className="pr-2">SUN</td>
                                 <td className="pl-2">Closed</td>
-                                <td className="pl-2">Closed</td>    
+                                <td className="pl-2">4PM-9PM</td>    
                             </tr>
                         </tbody>
                     </table>
