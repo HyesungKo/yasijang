@@ -29,6 +29,12 @@ export default function Home() {
             </div>
           </div>
           <div style={{backgroundColor: "#c8c4b8"}}>
+            <iframe id="yelp-reservations-widget" className="mt-16 hidden lg:block" width="100%" height="88" src="//www.yelp.com/reservations/yasijang-san-francisco/widget?orientation=horizontal&color-scheme=light" title="Make a reservation" >
+              <a href="https://www.yelp.com/reservations/yasijang-san-francisco">Reserve at Yasijang on Yelp</a>
+            </iframe>
+            <iframe id="yelp-reservations-widget" className="mt-16 mx-auto block lg:hidden" width="250" height="325" src="//www.yelp.com/reservations/yasijang-san-francisco/widget?orientation=compact&color-scheme=light" title="Make a reservation" >
+              <a href="https://www.yelp.com/reservations/yasijang-san-francisco">Reserve at Yasijang on Yelp</a>
+            </iframe>
             <Menu />
             <MenuSushi />
             <HappyHour />
